@@ -1,0 +1,119 @@
+/* Your styles here */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+
+.dark-blue {
+  background-color: #222f3f;
+}
+
+header img {
+  padding: 8px 18px;
+  width: 150px;
+}
+.light-blue {
+  background-color: #364759;
+}
+
+nav ul {
+  padding: 8px 18px;
+}
+nav ul li {
+  display: inline-block;
+  padding-left: 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  width: 95%;
+  margin-inline: auto;
+}
+
+.orange-box {
+  background-color: #f56600;
+  padding: 10px;
+  margin-block: 40px;
+  text-align: center;
+}
+.orange-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.spot-bckg {
+  height: 32vh;
+  background-image: url("../images/bg-image.png");
+  background-size: 92%;
+  background-position: top left;
+  text-align: center;
+  color: #fff;
+  padding-top: 80px;
+  font-weight: 750;
+  overflow: hidden;
+}
+.spot-bckg h2 {
+  font-size: 40px;
+}
+.spot-bckg p {
+  padding-top: 50px;
+}
+
+.card-container {
+  margin-block: 40px;
+  background-color: #ffffff;
+}
+.card-container p {
+  font-size: 20px;
+  padding: 20px 25px 10px;
+}
+.blue-anchor {
+  color: #205a60;
+  text-decoration: none;
+  font-weight: 750;
+  padding-left: 16px;
+  font-size: 15px;
+}
+.card-container .card {
+  width: 285px;
+  height: 50vh;
+  display: inline-block;
+  margin: 20px 30px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+.card-container .card img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.only-img img {
+  width: 100%;
+  height: 50vh;
+}
+.only-img p {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+footer .light-blue {
+  text-align: center;
+  padding-block: 10px;
+}
+footer .light-blue a {
+  color: #ffffff;
+}
+footer .dark-blue {
+  text-align: center;
+  padding-block: 50px;
+}
