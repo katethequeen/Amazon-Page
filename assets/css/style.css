@@ -49,13 +49,13 @@ main {
 }
 
 .spot-bckg {
-  height: 32vh;
+  height: 14vh;
   background-image: url("../images/bg-image.png");
   background-size: 92%;
   background-position: top left;
   text-align: center;
   color: #fff;
-  padding-top: 80px;
+  padding-top: 60px;
   font-weight: 750;
   overflow: hidden;
 }
@@ -63,7 +63,7 @@ main {
   font-size: 40px;
 }
 .spot-bckg p {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .card-container {
@@ -82,8 +82,8 @@ main {
   font-size: 15px;
 }
 .card-container .card {
-  width: 285px;
-  height: 50vh;
+  width: 220px;
+  height: 40vh;
   display: inline-block;
   margin: 20px 30px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
